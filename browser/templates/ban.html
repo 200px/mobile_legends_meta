@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="../css/ban.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class='main'>
+
+        <!-- Заголовок -->
+        <div class="lane-header">
+            <div class="icon-wrapper">
+                <img src="../images/icons/header/ban_logo.png" alt="Ban Icon" class="ban-icon">
+            </div>
+            <h1 class='lane-header__title'>{{ title }}</h1>
+        </div>
+
+        <div class="lane-container">
+            <!-- Список героев -->
+
+            <!-- S ТИР -->
+            <div class="tier-block">
+                <div class="tier-title">
+                    <p class="tier-title__text"> S </p>
+                </div>
+                {% for hero in heroes[:4] %}
+                    <div class="hero-card">
+                        <img src="{{ hero.img_src }}" class="hero-card__avatar">
+                        <img src="../images/icons/ban.png" class="hero-card__ban-icon">
+                    </div>
+                {% endfor %}
+            </div>
+
+            <!-- A ТИР -->
+            <div class="tier-block">
+                <div class="tier-title">
+                    <p class="tier-title__text"> A </p>
+                </div>
+                {% for hero in heroes[4:8] %}
+                    <div class="hero-card">
+                        <img src="{{ hero.img_src }}" class="hero-card__avatar">
+                        <img src="../images/icons/ban.png" class="hero-card__ban-icon">
+                    </div>
+                {% endfor %}
+            </div>
+
+            <!-- B ТИР -->
+            <div class="tier-block">
+                <div class="tier-title">
+                    <p class="tier-title__text"> B </p>
+                </div>
+                {% for hero in heroes[8:] %}
+                    <div class="hero-card">
+                        <img src="{{ hero.img_src }}" class="hero-card__avatar">
+                        <img src="../images/icons/ban.png" class="hero-card__ban-icon">
+                    </div>
+                {% endfor %}
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

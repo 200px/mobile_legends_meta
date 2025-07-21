@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="../css/meta.css">
+</head>
+<body>
+
+
+    <main class="main">
+
+        <header class="lane-header">
+            <div class="lane-header__icon-wrapper">
+                <img src="../images/icons/header/{{ lane_icon }}">
+            </div>
+            <h1 class="lane-header__title">{{ title }}</h1>
+        </header>
+
+        <section class="heroes-list">
+            
+            {% for hero in heroes %}
+            <div class="hero-item">
+                <img src="{{ hero.img_src }}" class="hero-item__avatar">
+                <span class="hero-item__name">{{ hero.hero_name }}</span>
+                <span class="hero-item__win_rate">{{ hero.win_rate }}</span>
+            </div>
+            {% endfor %}
+
+        </section>
+
+    </main>
+
+</body>
+</html>

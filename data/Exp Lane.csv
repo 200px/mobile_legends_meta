@@ -1,0 +1,6 @@
+hero_name,win_rate,pick_rate,ban_rate,lane,img_src,predicted_pick_rate
+Глу,54%,0.5633333333333334,25.74,"['Exp Lane', 'Roam']",https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_642/100_c472fe0233e5ef84a3ac9ba4a229d09f.png,0.7083353333333333
+Уранус,54%,1.08,43.95333333333334,['Exp Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2e15a0a506aaecd9b3de40a8cc9f7ec7.png,1.5546960000000003
+Руби,53%,1.0833333333333333,5.886666666666667,['Exp Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4b96c75b136290576d849309722d4d20.png,1.1471055555555554
+Лапу-Лапу,51%,1.53,27.669999999999998,['Exp Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_28036c4584c914c5aad4d2feeafb2452.png,1.953351
+Чонг,51%,1.1466666666666667,8.76,['Exp Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_9823ce4fe5eb89c0082b24f6d5ea67f6.png,1.2471146666666668

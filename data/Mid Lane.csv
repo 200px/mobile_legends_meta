@@ -1,0 +1,6 @@
+hero_name,win_rate,pick_rate,ban_rate,lane,img_src,predicted_pick_rate
+Кадита,54%,0.7966666666666667,0.8433333333333334,['Mid Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_42b40ae7741d2eb81148c8f1e1ff614c.png,0.8033852222222223
+Ксавьер,52%,1.0766666666666667,0.27,['Mid Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_df0a8dfc494f85ed9bbc4512cc1e5d3c.png,1.0795736666666667
+Одетта,52%,0.6333333333333333,0.23666666666666666,['Mid Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_d9251718a8894546ba04cfa9ca68dedc.png,0.6348322222222222
+Кагура,51%,0.7766666666666667,0.48,['Mid Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_da424b020b8ac8235d64a1b8a09aa749.png,0.7803946666666667
+Фаша,51%,1.9366666666666665,4.826666666666667,['Mid Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_10151d43910e62f7aa9ce08df481a20f.png,2.030143111111111

@@ -1,0 +1,13 @@
+hero_name,win_rate,pick_rate,ban_rate,lane,img_src,predicted_pick_rate,score
+Флорин,57.28666666666667,1.3800000000000001,66.64666666666666,['Roam'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5a57b91e4914cf071a3849e352e530a5.png,2.2997240000000003,16.757322213333342
+Иритель,56.30666666666667,2.12,10.893333333333333,['Gold Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a7c51b517dbce49dac4e537bd4ab4f87.png,2.350938666666667,14.826586524444458
+Ли Сун-Син,54.79,1.0666666666666667,85.85000000000001,['Jungle'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_961378be3f498d42c25b3defd1635ad1.png,1.9824000000000002,9.495695999999999
+Ванван,55.25666666666667,0.98,77.75333333333333,['Gold Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_44bfa1dc44deb8d7620605faaa9ffae7.png,1.7419826666666667,9.15702221777778
+Алукард,54.53666666666667,1.3733333333333333,7.336666666666666,['Jungle'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0f51b6906e08897aa02330d65b0deeac.png,1.474090222222222,6.687455974814817
+Уранус,53.72666666666667,1.08,43.95333333333334,['Exp Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2e15a0a506aaecd9b3de40a8cc9f7ec7.png,1.5546960000000003,5.793833760000001
+Эймон,53.98333333333333,1.06,17.546666666666667,['Jungle'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b3a7602fe7ffd1e54bf8ea79ceadfa72.png,1.2459946666666668,4.9632120888888815
+Фредрин,52.93666666666667,0.9933333333333333,10.9,['Jungle'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dea170bfd5f26c41fb04e5edf72afedb.png,1.1016066666666666,3.2350515777777784
+Кадита,53.96666666666667,0.7966666666666667,0.8433333333333334,['Mid Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_42b40ae7741d2eb81148c8f1e1ff614c.png,0.8033852222222223,3.1867613814814835
+Глу,54.42333333333334,0.5633333333333334,25.74,"['Exp Lane', 'Roam']",https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_642/100_c472fe0233e5ef84a3ac9ba4a229d09f.png,0.7083353333333333,3.133203291111115
+Руби,52.656666666666666,1.0833333333333333,5.886666666666667,['Exp Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4b96c75b136290576d849309722d4d20.png,1.1471055555555554,3.0474770925925916
+Лапу-Лапу,51.49666666666667,1.53,27.669999999999998,['Exp Lane'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_28036c4584c914c5aad4d2feeafb2452.png,1.953351,2.923515330000006

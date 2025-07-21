@@ -1,0 +1,153 @@
+/* ==========================================================================
+   Переменные и общие стили
+   ========================================================================== */
+
+:root {
+    /* Цветовая палитра */
+    --color-text: #332D56;
+    --color-header-bg: #0d3137;
+    --color-header-title: #4dc2d2;
+    --color-header-icon-bg: #183133;
+    
+    /* Цветовая палитра карточек персонажей*/
+    --color-item-bg-left: #f2f2f2;
+    --color-item-bg-right: #E3EEB2;
+    --color-avatar-border: #bccb8d;
+
+    /* Шрифты */
+    --font-main: 'Roboto', sans-serif;
+    --font-header: 'Ysabeau', sans-serif;
+
+    /* Размеры и отступы */
+    --border-radius-main: 12px;
+    --card-width: 540px;
+  
+    /* Тени */
+    --shadow-hero-main: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    --shadow-hero-avatar: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Основной контейнер (карточка)
+   ========================================================================== */
+
+.main {
+    width: 100%; 
+    max-width: var(--card-width);
+    height: auto; 
+    min-height: 1000px; 
+    background: url("../images/backgrounds/background_meta.png") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==========================================================================
+   Шапка карточки
+   ========================================================================== */
+
+.lane-header {
+    background-color: var(--color-header-bg);
+    padding: 10px 40px; 
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: var(--shadow-main);
+    margin-bottom: 55px; 
+}
+
+.lane-header__icon-wrapper {
+    background-color: var(--color-header-icon-bg);
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; 
+}
+
+.lane-header__title {
+    text-transform: uppercase;
+    font-family: var(--font-header);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: var(--color-header-title);
+    margin: 0; 
+}
+
+/* ==========================================================================
+   Список персонажей
+   ========================================================================== */
+
+.heroes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    padding: 0 40px; 
+}
+
+.hero-item {
+    background-color: var(--color-item-bg-left);
+    border-radius: var(--border-radius-main);
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+    box-shadow: var(--shadow-hero-main);
+    
+
+    position: relative; 
+    overflow: hidden; 
+}
+
+.hero-item__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+    border: 4px solid var(--color-avatar-border);
+    box-shadow: var(--shadow-hero-avatar);
+    
+    position: relative;
+    z-index: 2; 
+}
+
+.hero-item__name {
+    font-size: 1.9rem;
+    font-weight: 500;
+    flex-grow: 1; 
+    position: relative;
+    z-index: 2;
+}
+
+.hero-item__win_rate {
+    font-size: 2.4rem;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-item-bg-right);
+    
+    z-index: 1; 
+    clip-path: polygon(71% 0, 100% 0, 100% 100%, 71% 100%);
+}

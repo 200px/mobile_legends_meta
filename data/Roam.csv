@@ -1,0 +1,6 @@
+hero_name,win_rate,pick_rate,ban_rate,lane,img_src,predicted_pick_rate
+Флорин,57%,1.3800000000000001,66.64666666666666,['Roam'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5a57b91e4914cf071a3849e352e530a5.png,2.2997240000000003
+Минотавр,55%,0.58,0.6133333333333333,['Roam'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3ecd2c0843df7ec85044dafff6bf4553.png,0.5835573333333333
+Глу,54%,0.5633333333333334,25.74,"['Exp Lane', 'Roam']",https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_642/100_c472fe0233e5ef84a3ac9ba4a229d09f.png,0.7083353333333333
+Рафаэль,53%,0.6666666666666666,23.843333333333334,['Roam'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_68277dce415742c4a98883151c693a07.png,0.8256222222222221
+Хуфра,52%,0.6966666666666667,2.19,['Roam'],https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2fe99f4001211d18b3d2b95d0d3dc395.png,0.7119236666666666
